@@ -4,6 +4,7 @@ logo idea:
 
 to do:
 
-1: projects html
-2: cert placement
-3: about me page
+1: projects style
+2: about me description
+
+

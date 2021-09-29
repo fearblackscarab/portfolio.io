@@ -14,7 +14,7 @@
 /* header */
 
 .header{
-    background-color: black;
+    background-color: #0A0001;
     color: #BCBDC0;
 }
 
@@ -31,7 +31,36 @@
 /* end header */
 
 /* main */
+/* projects page */
+.projects{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.projects-text{
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: calc(52px/2 + (196/2 - 52/2) * ((100vw - 300px) / (1600 - 300)));
+    margin-top: calc(52px/2 + (196/2 - 52/2) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: calc(52px/2 + (196/2 - 52/2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.projects-img{
+    margin: 0;
+    padding: 0;
+    height: calc(129px + (536 - 129) * ((100vw - 300px) / (2500 - 300)));; 
+}
+
+/* end projects page */
+/* section1 */
+
 .main .section1{
+    margin: 0;
+    padding: 0;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #0A0001;
@@ -39,6 +68,8 @@
 }
 
 .main-header{
+    margin: 0;
+    padding: 0;
     font-size: calc(15px + (25 - 15) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'Press Start 2P', cursive;
 }
@@ -46,12 +77,12 @@
 .code-text{
     font-size: calc(13px + (20 - 13) * ((100vw - 300px) / (1600 - 300)));
 }
-
+/* end section1 */
 /* section2 */
 
 .carousel-div{
     height: calc(180px + (350 - 180) * ((100vw - 300px) / (1600 - 300)));
-    background-color: black;
+    background-color:#0A0001;
 }
 
 .project1,.project2,.project3{
@@ -60,7 +91,7 @@
     margin-top: calc(180px/4/2 + (350/4/2 - 180/4/2) * ((100vw - 300px) / (1600 - 300)));
     height: 75%;
     width: 200px;
-    background-color: black;
+    background-color: #0A0001;
     border-radius: 3px;
 }
 
@@ -72,7 +103,7 @@
     width: 100%;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: #0A0001;
     bottom: calc(180px/4*3/3 + (350/4*3/3 - 180/4*3/3) * ((100vw - 300px) / (1600 - 300)));
     border-radius: 5px;
 }
@@ -90,7 +121,7 @@
 /* footer */
 
 .footer{
-    background-color: black;
+    background-color: #0A0001;
     color: #BCBDC0;
 }
 
