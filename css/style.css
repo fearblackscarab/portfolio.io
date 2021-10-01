@@ -24,9 +24,9 @@
 
 .top-link{
     color: #BCBDC0;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 /* end header */
 
@@ -43,8 +43,10 @@
     padding: 0;
     color: black;
     background-color: white;
+    font-size: 30px;
     border-radius: 50%;
     padding-top: calc(52px/2 + (196/2 - 52/2) * ((100vw - 300px) / (1600 - 300)));
+    padding-bottom: calc(52px/2 + (196/2 - 52/2) * ((100vw - 300px) / (1600 - 300)));
     margin-top: calc(52px/2 + (196/2 - 52/2) * ((100vw - 300px) / (1600 - 300)));
     margin-bottom: calc(52px/2 + (196/2 - 52/2) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -98,12 +100,13 @@
 .project-text{
     position: absolute;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     height: calc(180px/2/5 + (350/2/5 - 180/2/5) * ((100vw - 300px) / (1600 - 300)));
     width: 100%;
     text-align: center;
     color: white;
     background-color: #0A0001;
+    opacity: 80%;
     bottom: calc(180px/4*3/3 + (350/4*3/3 - 180/4*3/3) * ((100vw - 300px) / (1600 - 300)));
     border-radius: 5px;
 }
