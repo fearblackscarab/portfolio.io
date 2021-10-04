@@ -4,6 +4,4 @@ logo idea:
 
 to do:
 
-1: projects style
-2: about me description
-
+1:fonts
