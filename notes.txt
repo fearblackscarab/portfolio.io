@@ -1,7 +1,7 @@
 logo idea:
 < MILLER / WALLACE >
 
+what to discuss
 
-to do:
-
-1:fonts
+"function developer"
+"carousel calculations"
